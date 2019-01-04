@@ -1,0 +1,235 @@
+/*
+Theme Name: Recipe Child
+Author: DJMiMi
+Theme URI: http://themeforest.net/user/DJMiMi
+Author URI: http://themeforest.net/user/DJMiMi
+License: GPL 2.0
+Template: recipe
+License URI: license.txt
+Description:  The Most Complete Wordpress Theme For Recipes
+Version: 1.2
+Tags: light
+*/
+
+.step-title{
+    color: #6ba72b;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.recipe-details .ingredients-list li:first-child h5 {
+     margin-top: 20px;
+}
+.social-share{
+    position: fixed;
+    bottom: 30%;
+    right: 0;
+}
+.dh_free_whatsapp_share_button_container ul li {
+    list-style-type: none;
+    float: none !important;
+}
+.fwabtn{
+
+}
+.vertical-text {
+    transform: rotate(-90deg);
+    transform-origin: left top 0;
+    color:white;
+    padding: 10px;
+    max-width: 40px;
+    display: none;
+}
+.dh_free_whatsapp_share_button_container{
+    max-width: 45px;
+}
+.bsaProContainer .bsaProHeader {
+    padding: 0 !important;
+    margin: 0;
+}
+.bsaProHeader__title{
+    font-weight: bold;
+}
+.related-recipes .recipe-box h4{
+    min-height: 110px;
+}
+.related-recipes .recipe-box p{
+    min-height: 160px;
+}
+@media only screen and (max-width: 1200px){
+    .related-recipes .recipe-box p{
+        min-height: 250px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .section-title .pull-left, .section-title .pull-right {
+        width: 100%;
+        text-align: left !important;
+    }
+    .related-recipes .recipe-box p{
+        min-height: 0px;
+    }
+    .related-recipes .recipe-box h4{
+        min-height: 0px;
+    }
+}
+/*************************************************************/
+/*             Rezept Archiv                                */
+/************************************************************/
+@media screen and (min-width:767px){
+    .content-inner-alt{
+        min-height: 230px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+
+
+    .content-inner-alt{
+        min-height: 0px;
+    }
+
+    .page-template-page-tpl_search .recipe-ads-box{
+       // min-height: 763px;
+    }
+
+    .recipe-box h4,
+    .blog-item h4,
+    .tax-season .recipe-box h4{
+        min-height: 90px;
+    }
+    .recipe-box p,
+    .blog-item p,
+    .tax-season .recipe-box p{
+        min-height: 100px;
+    }
+    .banner-content{
+        min-height: 336px;
+    }
+    .flex-holder{
+        display: flex;
+    }
+}
+@media only screen and (max-width: 1200px){
+
+
+    .recipe-ads-box,
+    .tax-season .recipe-ads-box{
+       //min-height: 756px;
+    }
+
+    .recipe-box h4,
+    .blog-item h4,
+    .tax-season .recipe-box h4{
+        min-height: 90px;
+    }
+    .recipe-box p,
+    .blog-item p,
+    .tax-season .recipe-box p{
+        min-height: 130px;
+
+    }
+    .banner-content{
+        min-height: 367px;
+    }
+    .flex-holder{
+        display: flex;
+    }
+}
+@media only screen and (max-width: 992px){
+
+    .page-template-page-tpl_search .recipe-ads-box,
+    .tax-season .recipe-ads-box{
+        min-height: 786px;
+    }
+
+    .recipe-box h4,
+    .blog-item h4,
+    .tax-season .recipe-box h4{
+        min-height: 106px;
+    }
+    .recipe-box p,
+    .blog-item p,
+    .tax-season .recipe-box h4{
+        min-height: 200px;
+    }
+
+    .flex-holder{
+        display: flex;
+    }
+
+
+}
+@media only screen and (max-width: 767px){
+
+    .page-template-page-tpl_search .recipe-ads-box,
+    .tax-season .recipe-ads-box{
+        min-height: 659px;
+    }
+
+    .recipe-box h4,
+    .blog-item h4,
+    .tax-season .recipe-box h4{
+        min-height: 0;
+    }
+    .recipe-box p,
+    .blog-item p,
+    .tax-season .recipe-box p{
+        min-height: 0;
+    }
+    .banner-content{
+        min-height: 0;
+    }
+    .flex-holder{
+        display: inline-block;
+    }
+}
+@media only screen and (min-width: 767px) {
+    .infocorner {
+        min-height: 195px;
+    }
+
+}
+.bsaProContainer-3 { margin: 0 auto; max-width: 250px; }
+.infobox-title{
+    z-index: 9999;
+    background: rgba(255,255,255);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    max-width: 60%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.infobox-list li{
+    position: relative;
+    margin-bottom: 15px;
+}
+.infobox-list a{
+   // max-height: 50%;
+   // white-space: nowrap;
+}
+.row{
+    overflow: hidden;
+}
+
+[class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+.infocorner{
+    border: 1px solid white;
+}
+.infrow-white-block{
+    min-height: 320px;
+}
+
+.btn i{
+    margin-right: 0;
+}
+.fake-checkbox:hover{
+    color:white;
+}
+.moove-gdpr-branding-cnt{
+    display:none;
+}
